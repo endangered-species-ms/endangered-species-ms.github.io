@@ -36,69 +36,38 @@ for managing both data collected and managing the personnel involved.
 		species data locker. 
 		- ADMIN: An account with special privileges that can manage other users’ activities on the data system.
 
-	- A researcher can have different access rights:
-		- APPRENTICE: no access to the data system.
-		- JUNIOR RESEARCHER: Read access to the data system.
-		- RESEARCHER: Write access to the data system
-		- PROJECT HEAD: Write access to the data system and read access to personnel system.
-		- DEPARTMENT HEAD: Write access to the data system and write access to personnel system.
+You can use the [editor on GitHub](https://github.com/endangered-species-ms/esms.github.io/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-	- Species endangerment can be classified based on their severity as follows.
-		- LEAST CONCERN: A species that has widespread and abundant population.
-		- NEAR THREATENED: Likely to qualify for threatened category in the near future.
-		- VULNERABLE:
-		- ENDANGERED:
-		- CRITICALLY ENDANGERED:
-		- EXTINCT IN THE WILD:
-		- EXTINCT:
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-	- Investigations can be classified by the research status as follows.
-		- SUBMITTED: recently introduced into the system.
-		- ACTIVE_RESEARCH: Data is being collected; the investigation/research is in some stage of process.
-		- UNDER_REVIEW: All data has been submitted, conclusions have been drawn, administrators/legal experts are doing 
-		what they do.
-		- CLOSED: All data and specimens have been archived because status has been determined.
+### Markdown
 
-## Client component
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-* **Functionality**
+```markdown
+Syntax highlighted code block
 
-    * The client app allows the user, depending on access rights, to enter data, access data already in the system, log and 
-access physical data locations, look up and even add personnel.
+# Header 1
+## Header 2
+### Header 3
 
-    * If a user is in the field, data can be stored in the local Room database until a convenient place for uploading
-data can be made available.
+- Bulleted
+- List
 
-* **Data persistence**
+1. Numbered
+2. List
 
-    * Enter something here
+**Bold** and _Italic_ and `Code` text
 
-* *Device or external services used*
+[Link](url) and ![Image](src)
+```
 
-    * Google Sign In
-    
-## Server component
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-* **Functionality**
+### Jekyll Themes
 
-    The server component is the heart of the content management system: coordinating, categorizing, and updating persisted 
-    data and personnel:
-    
-    * Transition a person to researcher status.
-    
-    * Setting information about a researcher such as name, id number, access rights, job assignment, etc.
-    
-    * Setting information about individual species under investigation, such as scientific name, common name, habit, current 
-    endangerment status, etc.
-    
-    * Set up and access storage places containing collections of physical data.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/endangered-species-ms/esms.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-    * Criteria check off to determine the stage of an investigation.
-    
-* **Data persistence**
+### Support or Contact
 
-    * User registry w/ user profiles &amp; preferences.
-
-* **Device or external services used**
-
-    * Google OAuth 2.0 provider
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
